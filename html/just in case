@@ -1,0 +1,4 @@
+<form class="button" action="postpage.html" method="post">
+  <label for="Your Input">What do you think about this show?</label>
+  <input type="button" name="button" value="Message">
+</form>

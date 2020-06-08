@@ -1,0 +1,275 @@
+body {
+  background-color: #def4f0;
+  margin: 0;
+  font-family: 'TenaliRamakrishna';
+  font-family: 'Quicksand', sans-serif;
+}
+
+.links {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  color: #10375c;
+}
+
+.links:hover {
+  color: blue;
+}
+
+.underlinespanner {
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+.smallertextspanner {
+  font-size: 12px;
+}
+
+hr {
+  margin: 100px 0;
+  display: inline-block;
+  position: relative;
+  left: calc(50% - 30px);
+  background-color: none;
+  border-style: none;
+  border-top: dotted;
+  border-color: #ea9a96;
+  width: 60px;
+  height: 0px;
+  border-width: 5px;
+  transform: scale(1);
+  transition-duration: .5s;
+}
+
+hr:hover {
+transform: scale(1.3);
+}
+
+ol {
+  padding-right: 40px;
+}
+
+.whitehr {
+  border-color: #e5e5e5;
+}
+
+.bynameheader {
+  margin-top: 100px;
+  color: #ff9595;
+  font-family: 'Indie Flower', cursive;
+  text-align: center
+}
+
+.writtenparagraph {
+  color: #ff9595;
+  width: 60%;
+padding-left: 20%;
+}
+
+h1 {
+  color: #303960;
+  margin-top: 0;
+}
+
+h3 {
+  color: #ea9a96;
+  font-size: 2px;
+}
+
+.nameheader h1 {
+  color: #4f8a8b;
+  margin-left: 100px;
+  padding-top: 25px;
+  font-family: 'Sacramento', cursive;
+  text-decoration: underline;
+}
+
+.tvshowimages {
+  padding-top: 20px;
+  width: 500px;
+  height: 200px;
+  border-radius: 100%;
+  transition: all 1s;
+}
+
+.tvshowimages:hover {
+  width: 700px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.backgroundforlayoutsection1 {
+  background-color: #f3e1e1;
+  height: 800px;
+}
+
+.layout-section1 {
+  background-color: #342b38;
+  border-radius: 50px;
+  padding-bottom: 15px;
+}
+
+
+
+.bubbletext {
+  margin-top: 100px;
+  padding-top: 60px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  margin-left: calc(50% - 75px);
+  width: 120px;
+  height: 150px;
+  text-align: center;
+  background-color: #303960;
+  border-radius: 25px;
+  transform: scale(1);
+    transition: all .1s;
+}
+
+.bubbletext h3 {
+  font-size: 17px;
+  color: #e5e5e5;
+  transform: scale(1.3);
+}
+
+.title-section2:hover {
+  transform: scale(1.3);
+}
+
+.toptoolbar {
+  position: fixed;
+  left: 20%;
+  top: 0px;
+  display: inline-block;
+}
+
+.netflixiconfixedintopbar {
+  vertical-align: 5px;
+  display: inline-block;
+  background-color: #1b1b2f;
+  border-style: solid;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  transform: scale(1);
+  transition-duration: .1s;
+}
+
+.netflixiconfixedintopbar:hover {
+  transform: scale(1.3);
+}
+
+.watchtext {
+  vertical-align: 5px;
+  display: inline-block;
+  color: black;
+  background-color: #f3e1e1;
+  border-radius: 30px;
+  width: 140px;
+  height: 15px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  transition-duration: .5s;
+}
+
+.watchtext:hover {
+  color: #f4f4f4;
+  background-color: #342b38;
+  width: 130px;
+  height: 17px;
+  padding-top: 5px;
+}
+
+button {
+  background-color: #342b38;
+  color: #80bdab;
+  border: none;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+button:hover {
+  background-color: #07031a;
+  color: #f4f4f4;
+  border-radius: 15px;
+  transform: scale(1.3);
+}
+
+.button {
+  background-color: #342b38;
+  color: #80bdab;
+  border: none;
+  border-radius: 5px;
+  transition: all 1s;
+  transform: scale(1);
+  display: inline-block;
+  ;
+}
+
+.button:hover {
+  background-color: #07031a;
+  color: #f4f4f4;
+  border-radius: 15px;
+  transform: scale(1.3);
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+  line-height: 2;
+  text-align: left;
+  padding: 0px 15px;
+}
+
+.show-1 {
+  margin-left: 0;
+}
+
+.show-2 {
+  margin-left: 500px;
+}
+
+.show-3 {
+  margin-left: 0px;
+}
+
+.show-4 {
+  margin-left: 500px;
+}
+
+.bottomcontainer {
+  color: #faf2f2;
+  background-color: #ea9a96;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.contacticons {
+  width: 20px;
+  height: 20px;
+  transition-duration: .1s;
+}
+
+.contacticons:hover {
+  width: 25px;
+  height: 25px;
+}
+
+.netflixicon {
+  width: 20px;
+  height: auto;
+  transition-duration: .1s;
+  background-color: #1b1b2f;
+  border-style: solid;
+  border-radius: 25px;
+  display: inline-block;
+  position: relative;
+  top: 27px;
+  ;
+  left: 200px;
+  transform: scale(1);
+}
+
+.netflixicon:hover {
+  transform: scale(1.3);
+}
